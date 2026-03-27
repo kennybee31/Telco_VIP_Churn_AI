@@ -8,6 +8,9 @@ library(bsicons)
 library(scales)
 library(munsell)
 
+# --- 加入這行，讓網頁讀取資料檔 ---
+final_decision_table <- readRDS("final_decision_table.rds")
+
 # 2. 戰略字典 (強化動態敏感度)
 lang_dict <- list(
   "zh" = list(
